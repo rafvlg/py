@@ -1,8 +1,8 @@
 import time
 from telegram import Bot
 
-chat_id = 386169113
-bot = Bot("6083437663:AAGBK_jPNeSJs5qoL0guWhnSNz1nRlWcX5o")
+chat_id = 123 #Ваш чат id
+bot = Bot("YOUR TOKEN")
 
 def send_random_cat():
     url = f'https://cataas.com/cat?t=${time.time()}'
